@@ -82,10 +82,17 @@ hour = str(start)[0:2]
 
 
 # Creating a path to save the data
-path = os.getcwd() + '/' + str(year)  
-path = os.getcwd() + '/' + str(year) + '/' + str(month)
-path = os.getcwd() + '/' + str(year) + '/' + str(month) + '/' + str(day)
-path = os.getcwd() + '/' + str(year) + '/' + str(month) + '/' + str(day) + '/' + hour
+Euro_path = '/home/pxh180012/Data/AOD'
+path = Euro_path + '/' + str(year)  
+path = Euro_path  + '/' + str(year) + '/' + str(month)
+path = Euro_path  + '/' + str(year) + '/' + str(month) + '/' + str(day)
+path = Euro_path  + '/' + str(year) + '/' + str(month) + '/' + str(day) + '/' + hour
+
+
+#path = os.getcwd() + '/' + str(year)  
+#path = os.getcwd() + '/' + str(year) + '/' + str(month)
+#path = os.getcwd() + '/' + str(year) + '/' + str(month) + '/' + str(day)
+#path = os.getcwd() + '/' + str(year) + '/' + str(month) + '/' + str(day) + '/' + hour
 
 print('Path: ' + path)
 save_path = path + '/'
