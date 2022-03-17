@@ -23,7 +23,8 @@ day_end = 3
 
 hour = ["00", "01", "02", "03", "04"]
 
-download_directory = "/home/prabu/Desktop/test1/ddd/"
+#download_directory = "/home/prabu/Desktop/test1/ddd/"
+download_directory = '/home/pxh180012/Data/AOD/'
 
 
 # Find Julian day from given year/month/day
