@@ -42,7 +42,8 @@ for x in range(int(julian_day_start), int(julian_day_end)):
   	download_path = download_directory + str(year) + '/'
   	download_path = download_directory + str(year) + '/' + str(monthh) + '/'
   	download_path = download_directory + str(year) + '/' + str(monthh) + '/' + str(dayy) + '/'
-  	download_path = download_directory + str(year) + '/' + str(monthh) + '/' + str(dayy) + '/' + str(i) + '/'
+  	#download_path = download_directory + str(year) + '/' + str(monthh) + '/' + str(dayy) + '/' + str(i) + '/'
+  	download_path = download_directory + str(year) + '/' + str(monthh) + '/' + str(dayy) + '/' + str(i)
   	
   	digit = len(str(x))
   	if digit == 1:
