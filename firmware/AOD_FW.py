@@ -24,8 +24,9 @@ import pandas as pd
 
 
 # main directory where AOD data is stored. 
-path_1 = "/home/prabu/Desktop/test1/ddd"
-
+#path_1 = "/home/prabu/Desktop/test1/ddd"
+path_1 = '/home/pxh180012/Data/AOD/'
+output_path = '/home/pxh180012/dataFrame/AOD.csv'
 
 
 # To find indexes of any location assign X_FW and Y_FW variables.
@@ -124,10 +125,7 @@ for year in os.listdir(path_1):
 df = pd.DataFrame(rows, columns=["Date", "AOD"])
 df = df.sort_values(by='Date')
 #print(df)
-df.to_csv('/home/prabu/Desktop/test1/out2.csv')
-
-
-
+df.to_csv(output_path)
 
 
 
