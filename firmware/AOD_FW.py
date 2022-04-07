@@ -25,7 +25,7 @@ import pandas as pd
 
 # main directory where AOD data is stored. 
 #path_1 = "/home/prabu/Desktop/test1/ddd"
-path_1 = '/home/pxh180012/Data/AOD/'
+path_1 = '/home/pxh180012/Data/AOD'
 output_path = '/home/pxh180012/dataFrame/AOD.csv'
 
 
