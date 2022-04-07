@@ -111,14 +111,10 @@ for year in os.listdir(path_1):
             path_4 = path_3 + "/" + str(day)
             for hour in os.listdir(path_4):
                 path_5 = path_4 + "/" + str(hour)
-                for d in os.listdir(path_5):
-                
-                    date = str(year) + "-" + str(month) + "-" + str(day) + " " + str(hour) + ":00:00"             
-                    path = path_5 + "/" + d
-                    
-                    #FW_index(path)		# uncomment this for find indexes of a location.
-                    
-                    read_AOD(date, path)
+
+                date = str(year) + "-" + str(month) + "-" + str(day) + " " + str(hour) + ":00:00"
+                read_AOD(date, path_5)
+
                     
 
 
