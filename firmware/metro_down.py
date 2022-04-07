@@ -68,9 +68,9 @@ for m in month:
             'variable': [
             '2m_temperature',], 
             'year': year,
-            'month': month,
-            'day': day,
-            'time': time,
+            'month': m,
+            'day': d,
+            'time': t,
             'format': 'grib',			# Supported format: grib and netcdf. Default: grib
             'area' : area, 
             'grid' : [0.1, 0.1],		# Latitude/longitude grid.  (one latitude devided into 10 parts)         Default: 0.25 x 0.25  
